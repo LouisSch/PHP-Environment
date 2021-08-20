@@ -1,0 +1,26 @@
+{
+    "name": "louis/php-sch",
+    "autoload": {
+        "psr-4": {
+            "Louis\\PhpSch\\": "src/",
+            "Louis\\PhpSch\\Controller\\": "src/controller/",
+            "Louis\\PhpSch\\DataBase\\": "src/db/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Louis Schirra",
+            "email": "louissch.off@gmail.com"
+        }
+    ],
+    "require": {
+        "filp/whoops": "^2.14",
+        "altorouter/altorouter": "^2.0",
+        "twig/twig": "^3.3",
+        "guzzlehttp/psr7": "^2.0",
+        "http-interop/response-sender": "^1.0",
+        "php-di/php-di": "^6.3",
+        "robmorgan/phinx": "^0.12.7",
+        "doctrine/orm": "^2.9"
+    }
+}
